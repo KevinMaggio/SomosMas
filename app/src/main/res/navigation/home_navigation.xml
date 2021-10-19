@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation"
+    app:startDestination="@+id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.alkemy.ongsomosmas.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_about_us_fragment"
+        android:name="com.alkemy.ongsomosmas.ui.aboutus.AboutUsFragment"
+        android:label="Nosotros"
+        tools:layout="@layout/fragment_about_us">
+        <action
+            android:id="@+id/action_nav_about_us_fragment_to_nav_fragment_member_detail"
+            app:destination="@id/nav_fragment_member_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_contacts_fragment"
+        android:name="com.alkemy.ongsomosmas.ui.contacts.ContactFragment"
+        android:label="Contacto"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_news_fragment"
+        android:name="com.alkemy.ongsomosmas.ui.news.NewsFragment"
+        android:label="Ultimas Novedades"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_activity_fragment"
+        android:name="com.alkemy.ongsomosmas.ui.activities.ActivitiesFragment"
+        android:label="Actividades"
+        tools:layout="@layout/fragment_activities" />
+
+    <fragment
+        android:id="@+id/nav_fragment_member_detail"
+        android:name="com.alkemy.ongsomosmas.ui.aboutus.MemberDetailFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_member_detail" />
+</navigation>

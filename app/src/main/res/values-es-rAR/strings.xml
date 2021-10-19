@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">El email no no puede estar vacio</string>
+    <!-- String relate to login -->
+    <string name="login_ti_email">Email</string>
+    <string name="login_ti_password">Contraseña</string>
+    <string name="login_bt_login">Iniciar</string>
+    <string name="login_bt_signup">Registro</string>
+    <!-- String relate to signup -->
+    <string name="signup_ti_confirm_password">Confirmar contraseña</string>
+    <string name="signup_ti_name">Nombre</string>
+    <string name="signup_tv_title">Registro</string>
+    <string name="signup_bt_signup">Registro</string>
+    <string name="signup_iv_logo">Somos mas logo</string>
+    <!-- String relate to error state -->
+    <string name="error_state_msg_invalid_name">El nombre no puede estar vacio</string>
+    <string name="error_state_msg_invalid_email">Ingrese un email valido</string>
+    <string name="error_state_msg_invalid_password_signUp">La contraseña requiere mas de 8 caracteres y ser alfanumerica</string>
+    <string name="error_state_msg_mismatched_password">Las contraseñas no son iguales</string>
+    <!-- String relate to empty -->
+    <string name="empty_fields_name_error">El nombre no puede estar vacio</string>
+    <string name="empty_fields_email_error">El email no puede estar vacio</string>
+    <string name="empty_fields_password_error">La contraseña no puede estar vacio</string>
+    <string name="empty_fields_confirm_password_error">Confirmar contraseña no puede estar vacío</string>
+    <!-- String relate to home -->
+    <string name="home_iv_title">Bienvenid@</string>
+    <string name="home_bt_logout">Cerrar sesión</string>
+    <!-- String relate to news -->
+    <string name="news_tv_subtitle">lorem</string>
+    <string name="news_tv_main_title">Últimas novedades</string>
+    <!-- String relate to error -->
+    <string name="error_tv_message">Ha ocurrido un error obteniendo la información.</string>
+    <string name="error_bt_retry">Reintentar</string>
+    <string name="error_general_tv_message">Ha ocurrido un error general. Por favor, reintenta más tarde.</string>
+    <string name="error_dialog">Cerrar</string>
+    <!-- String relate to testimonials -->
+    <string name="testimonials_main_title">Testimonios</string>
+    <!-- String relate to contacts -->
+    <string name="contact_tv_title">Contactate con nosotros</string>
+    <string name="contact_et_name">Nombre</string>
+    <string name="contact_et_surname">Apellido</string>
+    <string name="contact_bt_send">ENVIAR</string>
+    <string name="contact_et_query">Escribe tu consulta...</string>
+    <string name="contact_et_email">Email</string>
+    <string name="contact_error_email">Ingrese un email valido</string>
+    <!-- String relate to activities -->
+    <string name="activities_title">Actividades</string>
+    <string name="activities_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore</string>
+    <string name="activities_date">Fecha de publicación: </string>
+    <!-- String relate to member -->
+    <string name="member_tv_name">"Nombre: "</string>
+    <string name="member_tv_job">"Puesto: "</string>
+    <string name="member_tv_date">"Fecha de ingreso: "</string>
+    <string name="member_tv_network">"Redes: "</string>
+    <!-- String relate to about us -->
+    <string name="about_us_tv_title">Sobre Nosotros</string>
+    <string name="about_us_tv_title_2">Miembros</string>
+    <!-- String relate to details -->
+    <string name="details_testimonials_tv_content">"fragmento de creaf"</string>
+    <!-- String relate to menu item -->
+    <string name="menu_item_home">Inicio</string>
+    <string name="menu_item_about_us">Nosotros</string>
+    <string name="menu_item_activity">Actividades</string>
+    <string name="menu_item_news">Novedades</string>
+    <string name="menu_item_testimonials">Testimonios</string>
+    <string name="menu_item_contact">Contacto</string>
+    <string name="menu_item_contributes">Contribuye</string>
+    <!-- Strings related to facebook-->
+    <string name="facebook_auth_error">La autenticación ha fallado.</string>
+</resources>

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">ONGSomosMas</string>
+    <!-- Strings related to login -->
+    <string name="login_ti_email">Email</string>
+    <string name="login_ti_password">Password</string>
+    <string name="login_bt_login">Log In</string>
+    <string name="login_bt_signup">Sign Up</string>
+    <!-- Strings related to sign up -->
+    <string name="signup_ti_confirm_password">Confirm password</string>
+    <string name="signup_ti_name">Name</string>
+    <string name="signup_tv_title">Sign Up</string>
+    <string name="signup_bt_signup">Sign Up</string>
+    <string name="signup_iv_logo" translatable="false">Somos mas logo</string>
+    <!-- Strings related msg error -->
+    <string name="error_state_msg_invalid_name">Name cannot be empty</string>
+    <string name="error_state_msg_invalid_email">Enter a valid email</string>
+    <string name="error_state_msg_invalid_password_signUp">Password must be alphanumeric and have at least 8 characters</string>
+    <string name="error_state_msg_mismatched_password">Passwords are not the same</string>
+    <!-- Strings related to empty fields -->
+    <string name="empty_fields_name_error">Name cannot be empty</string>
+    <string name="empty_fields_email_error">Email cannot be empty</string>
+    <string name="empty_fields_password_error">Password cannot be empty</string>
+    <string name="empty_fields_confirm_password_error">Confirm Password cannot be empty</string>
+    <!-- Strings related to home -->
+    <string name="home_iv_title">Welcome</string>
+    <string name="home_bt_logout">Log Out</string>
+    <!-- Strings related to news -->
+    <string name="news_tv_subtitle" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore</string>
+    <string name="news_tv_main_title">Latest news</string>
+    <!-- Strings related to error -->
+    <string name="error_tv_message">An error has occurred obtaining the information.</string>
+    <string name="error_bt_retry">Retry</string>
+    <string name="error_dialog">Close</string>
+    <!-- Strings related to error general -->
+    <string name="error_general_tv_message">A general error has occurred. Please try again later.</string>
+    <!-- Strings related to testimonials -->
+    <string name="testimonials_main_title">Testimonials</string>
+    <!-- String relate to contacts -->
+    <string name="contact_tv_title">Contact us</string>
+    <string name="contact_et_name">Name</string>
+    <string name="contact_et_surname">Last name</string>
+    <string name="contact_bt_send">SEND</string>
+    <string name="contact_et_query">Write your inquiries...</string>
+    <string name="contact_et_email">Email</string>
+    <string name="contact_error_email">Enter a valid email</string>
+    <!-- Strings related to Activities -->
+    <string name="activities_title">Activities</string>
+    <string name="activities_description" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore</string>
+    <string name="activities_date">Publication date </string>
+    <!-- Strings related to member's details -->
+    <string name="member_tv_name">Name: </string>
+    <string name="member_tv_job">Job: </string>
+    <string name="member_tv_date">Date of admission:</string>
+    <string name="member_tv_network">Networks: </string>
+    <!-- Strings related to about us -->
+    <string name="about_us_tv_title">About us</string>
+    <string name="about_us_tv_sub_title" translatable="false">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</string>
+    <string name="about_us_tv_sub_title_2" translatable="false">Lorem ipsum dolor.</string>
+    <string name="about_us_tv_title_2">Members</string>
+    <string name="about_us_tv_description" translatable="false">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</string>
+    <!-- Strings related to details testimonials-->
+    <string name="details_testimonials_tv_content">creaf fragment</string>
+    <!-- Strings related to menu item-->
+    <string name="menu_item_home">Home</string>
+    <string name="menu_item_about_us">About Us</string>
+    <string name="menu_item_activity">Activities</string>
+    <string name="menu_item_news">News</string>
+    <string name="menu_item_testimonials">Testimonials</string>
+    <string name="menu_item_contact">Contact</string>
+    <string name="menu_item_contributes">"Contribute"</string>
+    <!-- Strings related to facebook-->
+    <string name="facebook_app_id" translatable="false">951361852132947</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb951361852132947</string>
+    <string name="facebook_auth_error">Authentication failed.</string>
+</resources>
